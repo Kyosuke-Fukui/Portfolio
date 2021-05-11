@@ -48,7 +48,7 @@ MIDDLEWARE = [
     'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
-ROOT_URLCONF = 'app1.urls' #プロジェクト名をxxxに入れる
+ROOT_URLCONF = 'app.urls' #プロジェクト名をxxxに入れる
 
 TEMPLATES = [
     {
@@ -66,7 +66,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'app1.wsgi.application' #プロジェクト名をxxxに入れる
+WSGI_APPLICATION = 'app.wsgi.application' #プロジェクト名をxxxに入れる
 
 
 DATABASES = {
