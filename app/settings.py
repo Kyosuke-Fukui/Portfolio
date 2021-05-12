@@ -23,7 +23,7 @@ DEBUG = env.get_value('DEBUG', cast = bool)
 if DEBUG:
     ALLOWED_HOSTS = ['*']
 else:
-    ALLOWED_HOSTS = ['portfolio-kf.herokuapp.com','https://portfolio-kf.herokuapp.com/']
+    ALLOWED_HOSTS = ['programming-kf.herokuapp.com','https://programming-kf.herokuapp.com/']
 
 
 INSTALLED_APPS = [
